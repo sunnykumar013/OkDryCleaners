@@ -1,0 +1,70 @@
+extends base.pug
+
+block scripts
+  script(src='/staic/index.js')
+block style 
+    style 
+        include ../static/style.css
+        include ../static/Phone.css
+
+block content 
+    
+    section#introSection
+        div| NEED ,
+        div| LAUNDRY 
+        div| WORK DONE ?
+        div.small| Contact Me.
+    
+    section#missionSection
+        h2 Our Mission
+        div#Services 
+            div.card
+                h3 Polishing
+                div.card-box
+                    div.card-img
+                        img(src="/static/img/g1.jpg")
+                    //- div.card-content
+                    //-     p This is the best dance academy of the universe
+
+            div.card
+                h3 DryCleaning
+                div.card-box
+                    div.card-img
+                        img(src="/static/img/g2.jpg")
+                    //- div.card-content
+                    //-     p This is the best dance academy of the universe
+
+            div.card
+                h3 Expert Booking
+                div.card-box
+                    div.card-img
+                        img(src="/static/img/g4.jpg")
+                    //- div.card-content
+                    //-     p This is the best dance academy of the universe
+            div.card
+                h3 Expert Booking
+                div.card-box
+                    div.card-img
+                        img(src="/static/img/g4.jpg")
+            
+            div.card
+                h3 Expert Steam Ironing
+                div.card-box
+                    div.card-img
+                        img(src="/static/img/g5.jpg")
+
+            div.card
+                h3 Quality Detergents
+                div.card-box
+                    div.card-img
+                        img(src="/static/img/g6.jpg")
+    
+
+    //- section#sponsorsSection
+    //-         h1|Ours Sponsors 
+    //-         div#sponsors
+    //-             img(src="/static/img/s1.jpg", alt="Sponsor images", class="spImages" )
+    //-             img(src="/static/img/s2.png", alt="Sponsor images", class="spImages" )
+    //-             img(src="/static/img/s3.png", alt="Sponsor images", class="spImages" )
+                
+

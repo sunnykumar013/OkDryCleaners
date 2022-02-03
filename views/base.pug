@@ -1,0 +1,25 @@
+//- layout.pug
+doctype html
+html
+  head
+    title OkDryCleaner.com
+    block scripts
+    block style 
+  body
+    nav#navbar
+            ul 
+                div#logo
+                    img(src="/static/img/logo.png")
+                    h3|OkDryCleaners 
+                    h3.green|.com
+               
+                li #[a(href = '/') Home] 
+                li #[a(href = '/') About] 
+                li #[a(href = '#Services') Services ]
+                //- li #[a(href = '/') Class Info ]
+                li #[a(href = '/contact') Contact Us ]
+    block content
+    footer#footer 
+               | Copyright © 2022 OkDryCleaners.com | All Rights Reserved
+
+    

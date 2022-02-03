@@ -1,0 +1,12 @@
+@media screen and (max-width: 1170px) {
+    #navbar{
+        /* background-color: black; */
+        display: flex;
+        flex-direction: columns;
+        align-items: center;
+    }
+    .card-img{
+        width: 100%;
+    }
+}
+    
