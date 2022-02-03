@@ -10,7 +10,7 @@ const { send } = require("process");
 main().catch(err => console.log(err));
 
 async function main() {
-  await mongoose.connect('mongodb://localhost/contactDance');
+  await mongoose.connect('mongodb://localhost/contactCustomer');
 }
 
 // define mongoose schemasss
